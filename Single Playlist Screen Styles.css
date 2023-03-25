@@ -6,7 +6,7 @@
 }
 body {
 	/* background-image: var(--background-image); */
-	background-image: var(--background-image);
+	background-image: linear-gradient(to right bottom, #1a8be1, #008ac8, #0085a7, #007c83, #007263, #0f7453, #29753e, #417425, #687f0f, #938700, #c28b00, #f48915);
 	
 /* 	background-position: center;
 	background-size: cover;
@@ -73,6 +73,7 @@ p {
 	vertical-align: middle;
 	display: inline-block;
 }
+
 /* animation for favoutites text */
 @keyframes flexible {
 	75% {
@@ -212,7 +213,7 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: var(--jumbotron-color);
+	background-image: linear-gradient(to right bottom, #24004c, #400045, #52003c, #600033, #69002b, #67002c, #66002c, #64002d, #560035, #43003c, #2b0541, #020942);
 	margin-bottom: 40px;
 	position: relative;
 }
@@ -220,12 +221,7 @@ main {
 .jumbotron-image {
 	height: 20vw;
 	width: 20vw;
-	background-image: linear-gradient(
-			to bottom,
-			transparent,
-			rgba(20, 27, 65, 1)
-		),
-		url("media/latest\ english/roar.jpg");
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/582/22/331/the-beatles-album-covers-sgt-peppers-lonely-hearts-club-band-entertainment-music-hd-art-wallpaper-preview.jpg");
 	background-size: cover;
 }
 /* right part of the jumbotron */
@@ -277,18 +273,19 @@ main {
 }
 .btns > button {
 	border: 0px;
-	height: 3vw;
-	width: 10vw;
-	color: white;
-	font-size: 1.2vw;
+	height: 2vw;
+	width: 8vw;
+	background-image: linear-gradient(to right top, #a4ebf9, #a7ebef, #adebe5, #b5eadc, #bee8d4, #c2e9cf, #c7eaca, #cdebc4, #d2efbd, #d8f2b5, #e1f4ad, #ebf6a4);
+	font-size: 1vw;
+	border-radius: 10px;
 }
 /* play button */
-.btns > button:nth-child(1) {
+/* .btns > button:nth-child(1) {
 	background-image: linear-gradient(-19deg, red 0%, blue 100%);
-}
+} */
 /* follow button */
 .btns > button:nth-child(2) {
-	background-color: transparent;
+	background-image: linear-gradient(to right top, #f6f53e, #e8f549, #daf454, #cdf35e, #c0f268, #cde65b, #d7da52, #e0ce4c, #f8b148, #ff9457, #ff7870, #fb648c);
 }
 /* particular item in the playlist */
 .playlist-item {
@@ -297,7 +294,8 @@ main {
 	height: 8vh;
 
 	box-sizing: border-box;
-	background-color: var(--playlist-items-background-color);
+	/* background-color: var(--playlist-items-background-color); */
+	background-image: linear-gradient(to right bottom, #24004c, #400045, #52003c, #600033, #69002b, #67002c, #66002c, #64002d, #560035, #43003c, #2b0541, #020942);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -479,7 +477,7 @@ footer {
 	bottom: 1px;
 	width: 100%;
 	height: 60px;
-	background-color: #282828;
+	background-image: linear-gradient(to right top, #00576f, #316290, #6e66a5, #ab66a4, #dd678f, #ea6b89, #f57083, #ff767b, #ff7191, #ff6fa9, #fa72c3, #eb79dc);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

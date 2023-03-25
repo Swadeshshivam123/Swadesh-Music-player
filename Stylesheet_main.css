@@ -1,20 +1,4 @@
 :root {
-	/* trying various background colors and images and gradients */
-	/* --background-image: linear-gradient(-90deg, #2E3192 , #1BFFFF); */
-	/* --background-image: linear-gradient(-90deg, #D4145A , #FBB03B); */
-	/* --background-image: linear-gradient(-90deg, #662D8C , #ED1E79); */ /* best one till now */
-	/* --background-image: linear-gradient(-90deg, #FF512F , #DD2476); */
-	/* --background-image: linear-gradient(-90deg, #C33764 , #1D2671); */ /* suitable for the text */
-	/* --background-image: linear-gradient(90deg, #764BA2 , #667EEA); */
-	/* trying other combinations */
-	/* --background-image: linear-gradient(90deg, #8E0E00 , #1F1C18); */ /* it was also looking decent */
-	/* --background-image: linear-gradient(90deg, #fc00ff , #00dbde); */
-
-	/* now trying combination of 3 colors */
-	/* --background-image: linear-gradient(90deg,#833ab4, #fd1d1d, #fcb045); */
-	/* --background-image: linear-gradient(90deg,#21D4FD, #B721FF); */
-	/* --background-image:url("background_image/2725544.jpg"); */
-	/* triend all the above gradients, finally liked the gradient vectored image */
 	--background-image: url(media/background_image/2725544.jpg);
 	--music-themes-background-image: linear-gradient(
 		90deg,
@@ -24,7 +8,7 @@
 	);
 }
 body {
-	background-image: var(--background-image);
+	background-image: linear-gradient(to right top, #9f3407, #a54900, #aa5d00, #ad6f00, #af8200, #b27511, #b2681d, #b05c27, #953639, #6a1f40, #371538, #080121);
 	margin: 0px;
 	font-family: "Segoe UI", Arial, sans-serif;
 	color: white;
@@ -83,8 +67,11 @@ a {
 	animation-iteration-count: infinite;
 }
 /* website function */
-.website-name h4 {
-	color: rgb(80, 220, 255);
+.website-name p {
+	font-size: xx-large;
+	font-weight: bolder;
+	font-style: italic;
+	text-transform: capitalize;
 }
 /* website title and general description */
 .title-combo > div {
@@ -303,7 +290,8 @@ main {
 }
 /* hovering effects for the latest release part components */
 .card:hover {
-	box-shadow: 0px 0px 2px 1px white;
+	box-shadow: 0px 0px 2px 1px black;
+	background-image: linear-gradient(to right top, #e7cdc2, #d2c5b3, #bbbca9, #a6b3a4, #94a8a1, #8eaba4, #88aea8, #81b1ad, #84c3b2, #90d4b1, #a7e4aa, #c7f2a0);
 }
 /* images in the cards of the latest release section */
 .card img {
@@ -451,6 +439,8 @@ input[type="checkbox"]:checked ~ .latest-release-dropdown {
 } /* added hovering effects */
 .popular-artist-content a div div:hover {
 	opacity: 0.5;
+	transform: scale(1.2);
+	background-image: linear-gradient(to right top, #282a23, #272b1e, #262d19, #252f14, #23300e, #24300a, #252f05, #272f00, #2b2c00, #2f2900, #322700, #342401);
 }
 .popular-artist-content a div div:hover i {
 	opacity: 1;
@@ -842,7 +832,8 @@ hr {
 }
 /* playlist items hovering effect */
 .playlist-item:hover {
-	box-shadow: 0px 0px 2px 1px white;
+	box-shadow: 0px 0px 2px 1px black;
+	background-image: linear-gradient(to right top, #898e7d, #939882, #9da386, #a8ad8b, #b4b88f, #abb68d, #a1b38c, #97b18b, #7aa086, #628e80, #4f7c78, #42696d);
 }
 /* playlist item image */
 .playlist-item img {
@@ -863,7 +854,7 @@ footer {
 	bottom: 1px;
 	width: 100%;
 	height: 60px;
-	background-color: #282828;
+	background-image: linear-gradient(to right top, #232df4, #0066f9, #0074c5, #007783, #007659, #197744, #32772a, #4a7500, #677600, #827600, #9c7500, #b5720c);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
